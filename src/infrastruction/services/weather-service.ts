@@ -4,7 +4,6 @@ import axios from 'axios';
 
 export class WeatherService implements IWeatherService {
   public  async GetWeatherFromAPI(): Promise<Weather> {
-
         const currentLocation = new Map();
         currentLocation.set("currentLatitude", 50.36);
         currentLocation.set("currentLongitude", 36.36);
