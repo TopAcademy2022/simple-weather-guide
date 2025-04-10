@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { App } from './ui/components/App';
-
+import { App } from '../../ui/components/App';
 test('renders learn react link', () => {
   // render(<App />);
   // let linkElement = screen.getByText(/current/i);
