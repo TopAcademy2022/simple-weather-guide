@@ -13,5 +13,4 @@ test('renders learn react link', () => {
   // expect(linkElement).toBeInTheDocument();
   // expect(dataEl).toBeInTheDocument();
   // expect(imgEl).toBeInTheDocument();
-
 });
